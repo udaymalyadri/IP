@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+</head>
+<body>
+
+<!-- Librarian Admin Section -->
+<form action="admin-login.php" method="post">
+    <label for="adminUsername">Admin Username:</label>
+    <input type="text" id="adminUsername" name="adminUsername" required>
+
+    <label for="adminPassword">Admin Password:</label>
+    <input type="password" id="adminPassword" name="adminPassword" required>
+
+    <button type="submit">Login</button>
+</form>
+
+<!-- Add Book Form -->
+<form action="add-book.php" method="post">
+    <!-- Add Book form fields go here -->
+</form>
+
+<!-- Update/Delete Book Form -->
+<form action="update-book.php" method="post">
+    <!-- Update/Delete Book form fields go here -->
+</form>
+
+<!-- Issue Book Form -->
+<form action="issue-book.php" method="post">
+    <!-- Issue Book form fields go here -->
+</form>
+
+<!-- Return Book Status Form -->
+<form action="return-status.php" method="post">
+    <!-- Return Book Status form fields go here -->
+</form>
+
+<!-- User Section -->
+<form action="user-login.php" method="post">
+    <label for="userUsername">User Username:</label>
+    <input type="text" id="userUsername" name="userUsername" required>
+
+    <label for="userPassword">User Password:</label>
+    <input type="password" id="userPassword" name="userPassword" required>
+
+    <button type="submit">Login</button>
+</form>
+
+<!-- User Registration Form -->
+<form action="user-register.php" method="post">
+    <!-- User Registration form fields go here -->
+</form>
+
+<!-- Search Book Form -->
+<form action="search-book.php" method="post">
+    <!-- Search Book form fields go here -->
+</form>
+
+<!-- My Borrow History Book -->
+<!-- My Borrow History Book section goes here -->
+
+<!-- Check Fine Form -->
+<form action="check-fine.php" method="post">
+    <!-- Check Fine form fields go here -->
+</form>
+
+<!-- Search Material Form -->
+<form action="search-material.php" method="post">
+    <!-- Search Material form fields go here -->
+</form>
+
+<!-- Download Material Form -->
+<form action="download-material.php" method="post">
+    <!-- Download Material form fields go here -->
+</form>
+
+<!-- My Profile Section -->
+<!-- My Profile section goes here -->
+
+</body>
+</html>
